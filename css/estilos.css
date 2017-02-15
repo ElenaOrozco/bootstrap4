@@ -1,0 +1,199 @@
+body {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif; }
+
+.spacio {
+  padding-bottom: 1.3rem; }
+
+.bienvenidos {
+  background: url(../images/laptop1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; }
+
+.fixed-top {
+  width: 100vw;
+  background: rgba(10, 10, 10, 0.75); }
+
+.navbar-inverse .navbar-nav .nav-link:focus, .navbar-inverse .navbar-nav .nav-link {
+  border-bottom: 10px solid rgba(0, 0, 0, 0.1); }
+
+.navbar-inverse .navbar-nav .nav-link:focus, .navbar-inverse .navbar-nav .nav-link:hover {
+  background: black;
+  border-bottom: 10px solid #FF8740;
+  color: #FF8740; }
+
+.navbar-inverse .navbar-brand {
+  font-weight: 700; }
+
+.bg-inverse {
+  background-color: rgba(0, 0, 0, 0.85) !important; }
+
+.navbar-nav {
+  text-align: center;
+  margin: 0; }
+
+.navbar-brand {
+  font-size: 1.2rem; }
+
+/*.navbar-inverse .navbar-nav .active > .nav-link{
+	margin-left: 4px; 
+}*/
+.texto-bienvenido {
+  padding-top: 40vh;
+  color: #fff;
+  text-align: center; }
+
+.btn-primary {
+  background-color: #FF8740;
+  border-color: #FF8740;
+  transition: all .5s ease; }
+
+.btn-primary:hover {
+  background-color: #FFB640;
+  border-color: #FFB640; }
+
+.btn-primary:focus, .btn-primary.focus {
+  -webkit-box-shadow: 0 0 0 2px rgba(142, 31, 3, 0.61);
+  box-shadow: 0 0 0 2px rgba(142, 31, 3, 0.61); }
+
+/* Estilos bloque Quines Somos */
+.quienes-somos {
+  background: #35D2AB;
+  color: #fff;
+  padding: 100px 0; }
+
+.quienes-somos .container figure {
+  width: 181px;
+  padding-bottom: 1rem; }
+
+.btn-lg, .btn-group-lg > .btn {
+  text-transform: uppercase;
+  margin-bottom: 20px; }
+
+/* Estilos Servicios */
+.servicios {
+  padding: 100px 0; }
+
+.h3 {
+  text-transform: uppercase; }
+
+.servicios .fa {
+  color: #FF8740;
+  font-size: 5rem; }
+
+.servicios h3 {
+  font-weight: bold; }
+
+/* Estilos ultimos proyectos */
+.ultimos-proyectos {
+  background: #424141;
+  color: #fff;
+  padding: 100px 0 !important; }
+
+.ultimos-proyectos .spaciado,
+.contacto .spaciado {
+  padding-top: 1rem;
+  padding-bottom: 2rem; }
+
+.ultimos-proyectos a {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 1.5rem; }
+
+.ultimos-proyectos img {
+  width: 290px;
+  transition: all .5s ease; }
+
+.ultimos-proyectos a:hover img {
+  transform: scale(1.5); }
+
+/*Estilos Contacto */
+.contacto {
+  padding: 100px 0 !important; }
+
+.form-control {
+  border: 2px solid #FF8740; }
+
+label {
+  color: #FF8740;
+  font-weight: 600; }
+
+.contacto .btn-primary {
+  width: 100%;
+  padding: 14px;
+  margin-top: .9rem;
+  background: #FF8740; }
+
+.contacto .btn-primary:hover {
+  background: #FFB640; }
+
+/* Estilos Footer */
+footer {
+  background: #000;
+  text-align: center;
+  color: #fff;
+  padding: 30px 0 !important;
+  font-size: 14px; }
+
+footer .col-md-4 {
+  padding-bottom: 1rem;
+  padding-top: 1rem; }
+
+footer ul {
+  list-style: none;
+  -webkit-padding-start: 0px; }
+
+footer ul .iconos {
+  color: #fff;
+  border-radius: 100%;
+  padding: 20px 13px;
+  margin: 0 10px; }
+
+footer a {
+  color: #f7f7f9;
+  text-decoration: none; }
+
+footer ul i:hover {
+  background: #FFB640; }
+
+footer ul .imagen {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 40px; }
+
+footer ul i {
+  background: #FF8740;
+  border-radius: 30px; }
+
+footer a:focus, a:hover {
+  color: #fff;
+  text-decoration: none; }
+
+.d-inline {
+  margin: 0 10px; }
+
+@media (min-width: 768px) {
+  .bienvenidos {
+    background: url(../images/laptop1.jpg); }
+
+  .texto-bienvenido {
+    padding-top: 250px;
+    padding-bottom: 200px; }
+
+  .contacto {
+    width: 60%;
+    margin: 0 auto; } }
+@media (min-width: 992px) {
+  .navbar-toggleable-md .navbar-collapse {
+    justify-content: flex-end; }
+
+  .navbar-toggleable-md .navbar-nav .nav-link {
+    padding: 1rem 2rem; }
+
+  .navbar {
+    padding: 0 1rem; } }
+
+/*# sourceMappingURL=estilos.css.map */
